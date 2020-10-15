@@ -1,6 +1,6 @@
 # HactoberFest2020-PythonDevs
 
-Cenceptual Coding Problems for Python Developers
+Conceptual Coding Problems for Python Developers
 
 ## Instructions
 * You can select any problem statement as per your programming skill levels
