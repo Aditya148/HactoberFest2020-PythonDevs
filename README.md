@@ -33,7 +33,7 @@ Cenceptual Coding Problems for Python Developers
 4. Write a Python program calculate the factorial of a number using recursion.
 
 ## Hard (recommended for advanced)
-## Note: Needs to be uploaded in .pynb format
+ Note: Needs to be uploaded in .pynb format
 
 1. A simple deep neural network archietechture for binary classification of dogs and cats images using Tensor Flow.
 2. A simple Linear Regression model along with printing the intercept and coefficient with a random generated data using numpy and random libraries.
