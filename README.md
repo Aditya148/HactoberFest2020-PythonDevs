@@ -38,8 +38,8 @@ Conceptual Coding Problems for Python Developers
 1. A simple deep neural network archietechture for binary classification of dogs and cats images using Tensor Flow.
 2. A simple Linear Regression model along with printing the intercept and coefficient with a random generated data using numpy and random libraries.
 3. A Multiple Linear Regression model along with printing the intercept and coefficient with a random generated data using numpy and random libraries.
-4. Plot a histogram for a randomply generated dataset using numpy.
-5. Create World Map representation using Folium library.
+4. Plot a histogram for a randomly generated dataset using numpy.
+5. Create Map for your favourite location using Folium library.
 
 ## Contributing
 
