@@ -1,4 +1,4 @@
-
+flag=1
 n= int(input("enter n1 in n1*m1 matrix :"))
 m= int(input("enter m1 in n1*m1 matrix :"))
 U=[]
@@ -23,16 +23,20 @@ for i in range(o):
         print("row entry:",i+1,"column entry:",j+1)
         K[i][j]=int(input())
 print(K)
-R=[]
-for i in range(n):
-    R.append([])
-for i in range(n):
-    for j in range(p):
-        R[i].append(j)
-        R[i][j]=0
-for p in range(len(U)):
-    for q in range(len(K[0])):
-        for r in range(len(K)):
-            R[p][q] += U[p][r]*K[r][q]
+if(m!=o):
+    print("Matrix Multiplication not possible")
+    flag=0
+if(flag==1):
+    R=[]
+    for i in range(n):
+        R.append([])
+    for i in range(n):
+        for j in range(p):
+            R[i].append(j)
+            R[i][j]=0
+    for p in range(len(U)):
+        for q in range(len(K[0])):
+            for r in range(len(K)):
+                R[p][q] += U[p][r]*K[r][q]
 
-print("Result: ",R)
+    print("Result: ",R)
